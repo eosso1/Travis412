@@ -15,6 +15,6 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMinus() {
 		SimpleCalculator calc1 = new SimpleCalculator();
-		assertEquals(calc1.subtract(5, 3), 2);
+		assertEquals(calc1.minus(5, 3), 2);
 	}
 }
