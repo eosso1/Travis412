@@ -14,6 +14,12 @@ public class SimpleCalculator {
 	}
 	
 	public int divide(int a, int b) {
-		return a / b;
+		try {
+			return a / b;
+		}
+		
+		catch (Exception e) {
+			return -1;
+		}
 	}
 }
